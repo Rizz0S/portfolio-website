@@ -30,7 +30,7 @@ const Tab =  ({tabName, onClick}) => {
 
     return(
         <button className={[styles[tabName], styles.tab].join(' ')} onClick={onClick}>
-            <img src={TAB_INFO[tabName].icon} className={styles.icon}/>
+            <img src={TAB_INFO[tabName].icon} className={styles.icon} alt={`${tabName} page`}/>
             {TAB_INFO[tabName].title}
         </button>
     )
