@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './contact.modules.css';
 
-import self from '../static/self.JPG';
+import self from '../static/self.png';
 
 import twitterIcon from '../static/icons/twitter.png';
 import linkedinIcon from '../static/icons/linkedin.png';
@@ -10,7 +10,7 @@ import blogIcon from '../static/icons/blog.png';
 import emailIcon from '../static/icons/email.png';
 import phoneIcon from '../static/icons/phone.png';
 
-export default function Contact (props) {
+export default function Contact(props) {
 
     return (
         <div className={styles.container}>
@@ -20,30 +20,30 @@ export default function Contact (props) {
                 </div>
                 <div className={styles['contact-info-container']}>
                     <div className={styles['contact-info']}>
-                        <img src={emailIcon} className={styles.icon} alt="e mail"/>
+                        <img src={emailIcon} className={styles.icon} alt="e mail" />
                         srainrizzo@gmail.com
                     </div>
 
                     <div className={styles['contact-info']}>
-                        <img src={phoneIcon} className={styles.icon} alt="phone"/>
+                        <img src={phoneIcon} className={styles.icon} alt="phone" />
                         979.450.4778
                     </div>
 
                     <div className={styles['contact-info']}>
-                        <img src={blogIcon} className={styles.icon} alt="blog"/>
+                        <img src={blogIcon} className={styles.icon} alt="blog" />
                         <a href="https://dev.to/Rizz0s" target="blank">blog</a>
                     </div>
 
                     <div className={styles['contact-info']}>
-                        <img src={twitterIcon} className={styles.icon} alt="twitter"/>
+                        <img src={twitterIcon} className={styles.icon} alt="twitter" />
                         <a href="https://twitter.com/_rizz0s" target="blank">twitter</a>
                     </div>
                     <div className={styles['contact-info']}>
-                        <img src={linkedinIcon} className={styles.icon} alt="linked in"/>
+                        <img src={linkedinIcon} className={styles.icon} alt="linked in" />
                         <a href="https://www.linkedin.com/in/summerrizzo" target="blank">linkedin</a>
                     </div>
                     <div className={styles['contact-info']}>
-                        <img src={githubIcon} className={styles.icon} alt="git hub"/>
+                        <img src={githubIcon} className={styles.icon} alt="git hub" />
                         <a href="https://github.com/Rizz0S" target="blank">github</a>
                     </div>
                 </div>
